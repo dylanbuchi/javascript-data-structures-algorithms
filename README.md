@@ -1,6 +1,6 @@
 # javascript-data-structures-algorithms
 
-Repo to implement javascript data structures and algorithms
+Repo to implement data structures and algorithms in Javascript.
 
 ## Overview
 -------------
