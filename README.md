@@ -4,8 +4,8 @@ Repo to practice javascript data structures and algorithms
 
 ## Overview
 -------------
-- Data Structures
-    - Arrays
+- ### Data Structures
+    - [Arrays](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/arrays/myarray.js)
     - HashTables
     - LinkedLists
     - Stacks
@@ -13,15 +13,15 @@ Repo to practice javascript data structures and algorithms
     - Trees
     - Graphs
 -------------
-- Algorithms
-    - Recursion
-    - Sorting
+- ### Algorithms
+    - #### Recursion
+    - #### Sorting
         - Bubble Sort
         - Selection Sort
         - Insertion Sort
         - Merge Sort
         - Quick Sort
-    - Searching
+    - #### Searching
         - Linear Search
         - Binary Search
         - BFS
