@@ -1,6 +1,6 @@
-# Javascript Data Structures & Algorithms
+# JavaScript Data Structures & Algorithms
 
-Repo to implement data structures and algorithms in Javascript.
+Repo to implement data structures and algorithms in JavaScript.
 ------------
 - ### Data Structures
     - [Arrays](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/arrays/myarray.js)
