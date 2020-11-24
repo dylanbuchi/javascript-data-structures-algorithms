@@ -6,8 +6,8 @@ Repo to implement data structures and algorithms in JavaScript.
     - [Arrays](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/arrays)
     - [Hash Tables](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/hash_tables)
     - [LinkedLists](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/linkedlists)
-    - Stacks
-    - Queues
+    - [Stacks](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/stacks)
+    - [Queues](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/queues)
     - Trees
     - Graphs
 -------------
