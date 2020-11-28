@@ -15,6 +15,7 @@ selectionSort = (array) => {
         array[minIndex] = temp;
     }
 };
-const array = [-2, 8, 99, 1, 2, 6, 89, -10, 0, 3];
+const array = [28, 99, 1, 2, 6, 89, -10, 0, 3];
+
 selectionSort(array);
 console.log(array);
