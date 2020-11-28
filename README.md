@@ -3,16 +3,16 @@
 Repo to implement data structures and algorithms in JavaScript.
 ------------
 - ### Data Structures
-    - [Arrays](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/arrays)
-    - [Hash Tables](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/hash_tables)
-    - [LinkedLists](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/linkedlists)
-    - [Stacks](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/stacks)
-    - [Queues](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/queues)
+    - [Arrays](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/data_structures/arrays)
+    - [Hash Tables](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/data_structures/hash_tables)
+    - [LinkedLists](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/data_structures/linkedlists)
+    - [Stacks](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/data_structures/stacks)
+    - [Queues](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/data_structures/queues)
     - Trees
     - Graphs
 -------------
 - ### Algorithms
-    - #### Recursion
+    - #### [Recursion](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/algorithms/recursion)
     - #### Sorting
         - Bubble Sort
         - Selection Sort
