@@ -14,11 +14,11 @@ Repo to implement data structures and algorithms in JavaScript.
 - ### Algorithms
     - #### [Recursion](https://github.com/dylanbuchi/javascript-data-structures-algorithms/tree/main/algorithms/recursion)
     - #### Sorting
-        - Bubble Sort
-        - Selection Sort
-        - Insertion Sort
-        - Merge Sort
-        - Quick Sort
+        - [Bubble Sort](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/sorting/bubble_sort.js)
+        - [Selection Sort](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/sorting/selection_sort.js)
+        - [Insertion Sort](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/sorting/insertion_sort.js)
+        - [Merge Sort](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/sorting/merge_sort.js)
+        - [Quick Sort](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/sorting/quick_sort.js)
     - #### Searching
         - Linear Search
         - Binary Search
