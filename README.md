@@ -20,8 +20,8 @@ Repo to implement data structures and algorithms in JavaScript.
         - [Merge Sort](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/sorting/merge_sort.js)
         - [Quick Sort](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/sorting/quick_sort.js)
     - #### Searching
-        - Linear Search
-        - Binary Search
-        - BFS
-        - DFS
+        - [Linear Search](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/searching/linear_search.js)
+        - [Binary Search](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/searching/binary_search.js)
+        - [BFS](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/searching/BFS.js)
+        - [DFS](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/searching/DFS.js)
 ---------------
