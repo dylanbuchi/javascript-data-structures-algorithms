@@ -24,4 +24,6 @@ Repo to implement data structures and algorithms in JavaScript.
         - [Binary Search](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/searching/binary_search.js)
         - [BFS](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/searching/BFS.js)
         - [DFS](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/searching/DFS.js)
+    - #### Dynamic Programming
+        -  [Memoization](https://github.com/dylanbuchi/javascript-data-structures-algorithms/blob/main/algorithms/dynamic_programming/memoization/DFS.js)
 ---------------
