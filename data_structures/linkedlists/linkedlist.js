@@ -118,5 +118,8 @@ l.remove(2);
 l.remove(1);
 l.remove(0);
 
-console.log(l.print());
-console.log(l.length());
+// console.log(l.print());
+// console.log(l.length());
+
+exports.Node = Node;
+exports.LinkedList = LinkedList;
