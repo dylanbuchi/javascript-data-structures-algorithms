@@ -1,71 +1,70 @@
-class Node {
-    constructor(value) {
-        this.value = value;
-        this.next = null;
-    }
-}
+const { Node } = require("../linkedlists/linkedlist.js");
 
 class Stack {
     constructor() {
         this.top = null;
-        this.size = 0;
-    }
-    peek() {
-        return this.top.value;
+        this._size = 0;
     }
 
     push(value) {
         const node = new Node(value);
-        if (this.isEmpty()) {
+
+        if (!this.size) {
             this.top = node;
         } else {
             node.next = this.top;
             this.top = node;
         }
-        this.top = node;
-        this.size++;
-        return this;
+        this._size++;
     }
 
-    pop() {
-        if (this.isEmpty()) {
-            return;
-        }
-        let temp = this.top;
-        const deleted = temp.data;
+    get size() {
+        return this._size;
+    }
 
-        this.top = this.top.next;
-        temp = null;
-        this.size--;
-        return deleted;
+    print() {
+        let curr = this.top;
+        const result = [];
+        while (curr) {
+            result.push(curr.value);
+            curr = curr.next;
+        }
+        return result.join(" -> ");
+    }
+    pop() {
+        if (!this.isEmpty()) {
+            this.top = this.top.next;
+            this._size--;
+        }
     }
 
     isEmpty() {
         return this.size === 0;
     }
 
-    length() {
-        return this.size;
-    }
-
-    print() {
-        let curr = this.top;
-        let string = "";
-        while (curr) {
-            string += curr.value + " ";
-            curr = curr.next;
+    peek() {
+        if (this.top) {
+            return this.top.value;
         }
-        return string;
     }
 }
 
+// -------------------------------
+
 const stack = new Stack();
 
-console.log(stack.push("1"));
-console.log(stack.push("2"));
-console.log(stack.push("3"));
+console.log(stack.push(1));
+console.log(stack.push(2));
+console.log(stack.push(3));
+
+console.log(stack.peek());
+console.log(stack.print());
 
 console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack.pop());
 
+console.log(stack.peek());
 console.log(stack.print());
-console.log(stack.length());
+
+console.log(stack.size);
